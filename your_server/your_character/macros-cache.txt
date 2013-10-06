@@ -1,0 +1,72 @@
+VER 3 0100000000000013 "1" "INV_MISC_QUESTIONMARK"
+/petattack
+/cast Haunt
+END
+VER 3 0100000000000002 "AF" "ability_rogue_reinforcedleather"
+/script ArenaEnemyFrame3:SetScale(1.5)
+/script ArenaEnemyFrame2:SetScale(1.5)
+/script ArenaEnemyFrame1:SetScale(1.5)
+END
+VER 3 010000000000001B "axe" "INV_MISC_QUESTIONMARK"
+#showtooltip Axe Toss
+/cast [mod:shift,@focus,exists][nomod]Axe Toss
+END
+VER 3 010000000000001D "carrionsw" "INV_MISC_QUESTIONMARK"
+#showtooltip Carrion Swarm
+/cast Carrion Swarm
+END
+VER 3 0100000000000014 "ct" "INV_MISC_QUESTIONMARK"
+/cast [target=focus] curse of enfeeblement
+END
+VER 3 010000000000001E "dc" "INV_MISC_QUESTIONMARK"
+#showtooltip Dark Soul: Instability
+/use Healthstone
+END
+VER 3 010000000000001F "DEMON" "INV_MISC_QUESTIONMARK"
+#showtooltip Dark Soul: Instability
+/use Tyrannical Gladiator's Badge of Dominance
+/cast Dark Soul: Instability
+/cast Dark Soul: Knowledge
+END
+VER 3 0100000000000010 "e" "INV_MISC_QUESTIONMARK"
+/cast [target=focus] Fear
+END
+VER 3 0100000000000006 "F1" "SPELL_SHADOW_MINDROT"
+/cast [mod:shift,@focus,exists][nomod]Command Demon
+END
+VER 3 010000000000000D "fc" "INV_MISC_QUESTIONMARK"
+#showtooltip Howl of Terror
+/focus Arena1
+END
+VER 3 010000000000000E "fc2" "INV_MISC_QUESTIONMARK"
+#showtooltip Howl of Terror
+/focus arena2
+END
+VER 3 010000000000000F "fc3" "INV_MISC_QUESTIONMARK"
+#showtooltip Dark Soul: Misery
+/focus arena3
+END
+VER 3 010000000000001A "sin" "INV_MISC_QUESTIONMARK"
+/cast [target=stucky] Command Demon
+END
+VER 3 0100000000000018 "st" "INV_MISC_QUESTIONMARK"
+#showtooltip Spell Lock
+/stopcasting
+/cast fel flame
+END
+VER 3 010000000000000A "t1" "INV_MISC_QUESTIONMARK"
+#showtooltip Optical Blast
+/target arena1
+END
+VER 3 010000000000000B "t2" "INV_MISC_QUESTIONMARK"
+#showtooltip Optical Blast
+/target arena2
+END
+VER 3 010000000000000C "t3" "INV_MISC_QUESTIONMARK"
+#showtooltip Optical Blast
+/target arena3
+END
+VER 3 0100000000000017 "yea" "INV_MISC_QUESTIONMARK"
+/cast Dark Regeneration
+/use Healthstone
+END
